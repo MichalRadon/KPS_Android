@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#639e5d"
+    tools:context=".PolandActivity">
+
+<android.support.constraint.ConstraintLayout
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:focusableInTouchMode="true">
+
+    <Button
+        android:id="@+id/setStartDateBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/button_bg_rounded_corners"
+        android:padding="15dp"
+        android:text="Data"
+        android:textColor="#ffffff"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ustawDateCzasStartTV" />
+
+    <Button
+        android:id="@+id/setStartTimeBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/button_bg_rounded_corners"
+        android:padding="15dp"
+        android:text="Godzina"
+        android:textColor="#ffffff"
+        app:layout_constraintStart_toEndOf="@+id/setStartDateBtn"
+        app:layout_constraintTop_toBottomOf="@+id/ustawDateCzasStartTV" />
+
+    <Button
+        android:id="@+id/setEndDateBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/button_bg_rounded_corners"
+        android:padding="15dp"
+        android:text="Data"
+        android:textColor="#ffffff"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ustawDateCzasEndTV" />
+
+    <Button
+        android:id="@+id/setEndTimeBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/button_bg_rounded_corners"
+        android:padding="15dp"
+        android:text="Godzina"
+        android:textColor="#ffffff"
+        app:layout_constraintStart_toEndOf="@+id/setEndDateBtn"
+        app:layout_constraintTop_toBottomOf="@+id/ustawDateCzasEndTV" />
+    <TextView
+        android:id="@+id/ustawDateCzasStartTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="Ustaw datę i godzinę wyjazdu"
+        android:textColor="#000"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/ustawDateCzasEndTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="Ustaw datę i godzinę powrotu"
+        android:textColor="#000"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/setStartTimeBtn" />
+    <TextView
+        android:id="@+id/wysokoscDietyTV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="Wysokość diety za dobę podróży"
+        android:textAlignment="center"
+        android:textColor="#000"
+        app:layout_constraintTop_toBottomOf="@+id/setEndTimeBtn"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <TextView
+        android:id="@+id/wyzywienieTV"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="50dp"
+        android:text="Wyżywienie ilość"
+        android:textAlignment="center"
+        android:textColor="#000"
+        app:layout_constraintTop_toBottomOf="@+id/wysokoscDietyET"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <TextView
+        android:id="@+id/iloscSniadanTV"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="8dp"
+        android:text="Ilość śniadań"
+        android:textColor="#000"
+        android:textAlignment="center"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/wyzywienieTV" />
+
+    <TextView
+        android:id="@+id/iloscObiadowTV"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="Ilość obiadów"
+        android:textColor="#000"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toStartOf="@+id/iloscKolacjiTV"
+        app:layout_constraintStart_toEndOf="@+id/iloscSniadanTV"
+        app:layout_constraintTop_toBottomOf="@+id/wyzywienieTV" />
+
+    <TextView
+        android:id="@+id/iloscKolacjiTV"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginEnd="2dp"
+        android:layout_marginTop="8dp"
+        android:text="Ilość kolacji"
+        android:textColor="#000"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/wyzywienieTV" />
+
+    <EditText
+        android:id="@+id/liczbaSniadanET"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:text="0"
+        android:inputType="number"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/iloscSniadanTV"
+        />
+
+    <EditText
+        android:id="@+id/liczbaObiadowET"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:text="0"
+        android:inputType="number"
+        app:layout_constraintEnd_toStartOf="@+id/liczbaKolacjiET"
+        app:layout_constraintStart_toEndOf="@+id/liczbaSniadanET"
+        app:layout_constraintTop_toBottomOf="@+id/iloscObiadowTV"
+
+        />
+
+    <EditText
+        android:id="@+id/liczbaKolacjiET"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:text="0"
+        android:inputType="number"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/iloscKolacjiTV"
+
+        />
+
+    <Button
+        android:id="@+id/obliczBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button_bg_rounded_corners"
+        android:padding="15dp"
+        android:text="Oblicz"
+        android:textColor="#ffffff"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/liczbaObiadowET" />
+
+    <EditText
+        android:id="@+id/wysokoscDietyET"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:inputType="number"
+        android:text="30"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/wysokoscDietyTV" />
+
+
+
+</android.support.constraint.ConstraintLayout>
+</ScrollView>

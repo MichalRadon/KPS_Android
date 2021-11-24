@@ -1,0 +1,353 @@
+<resources>
+    <string name="app_name">KPS</string>
+    <string name="title_activity_addada">addada</string>
+    <string name="title_activity_main2">Main2Activity</string>
+
+
+    <string-array name="panstwa">
+        <item>Afganistan </item>
+        <item>Albania</item>
+        <item>Algieria</item>
+        <item>Andora</item>
+        <item>Angola</item>
+        <item> Arabia Saudyjska</item>
+        <item>Argentyna</item>
+        <item> Armenia</item>
+        <item> Australia</item>
+        <item>Austria</item>
+        <item> Azerbejdżan</item>
+        <item> Bangladesz</item>
+        <item> Belgia</item>
+        <item> Białoruś</item>
+        <item> Bośnia i Hercegowina</item>
+        <item> Brazylia</item>
+        <item> Bułgaria</item>
+        <item> Chile</item>
+        <item> Chiny</item>
+        <item> Chorwacja</item>
+        <item> Cypr</item>
+        <item> Czechy</item>
+        <item> Dania</item>
+        <item> Egipt</item>
+        <item> Ekwador</item>
+        <item> Estonia</item>
+        <item> Etiopia</item>
+        <item> Finlandia</item>
+        <item> Francja</item>
+        <item> Grecja</item>
+        <item>  Gruzja</item>
+        <item> Hiszpania</item>
+        <item> Indie</item>
+        <item> Indonezja</item>
+        <item> Irak</item>
+        <item> Iran</item>
+        <item>  Irlandia</item>
+        <item> Islandia</item>
+        <item> Izrael</item>
+        <item> Japonia</item>
+        <item> Jemen</item>
+        <item> Jordania</item>
+        <item> Kambodża</item>
+        <item> Kanada</item>
+        <item> Katar</item>
+        <item> Kazachstan</item>
+        <item>  Kenia</item>
+        <item> Kirgistan</item>
+        <item> Kolumbia</item>
+        <item> Kongo, Demokratyczna Republika Konga</item>
+        <item> Korea Południowa</item>
+        <item> Koreańska Republika Ludowo-Demokratyczna</item>
+        <item> Kostaryka</item>
+        <item> Kuba</item>
+        <item> Kuwejt</item>
+        <item>  Laos</item>
+        <item> Liban</item>
+        <item> Libia</item>
+        <item>  Liechtenstein</item>
+        <item> Litwa</item>
+        <item>Luksemburg</item>
+        <item>Łotwa</item>
+        <item>Macedonia</item>
+        <item> Malezja</item>
+        <item> Malta</item>
+        <item> Maroko</item>
+        <item> Meksyk</item>
+        <item> Mołdowa</item>
+        <item> Monako</item>
+        <item> Mongolia</item>
+        <item> Niderlandy</item>
+        <item> Niemcy</item>
+        <item>Nigeria</item>
+        <item> Norwegia</item>
+        <item> Nowa Zelandia</item>
+        <item> Oman</item>
+        <item> Pakistan</item>
+        <item> Palestyńska Władza Narodowa</item>
+        <item> Panama</item>
+        <item> Peru</item>
+        <item> Portugalia</item>
+        <item>Republika Południowej Afryki</item>
+        <item> Rosja</item>
+        <item> Rumunia</item>
+        <item> San Marino</item>
+        <item> Senegal</item>
+        <item> Republika Serbii i Republika Czarnogóry</item>
+        <item> Singapur</item>
+        <item> Słowacja</item>
+        <item> Słowenia</item>
+        <item> Stany Zjednoczone Ameryki</item>
+        <item>Syria</item>
+        <item>Szwajcaria</item>
+        <item> Szwecja</item>
+        <item> Tadżykistan</item>
+        <item> Tajlandia</item>
+        <item> Tanzania</item>
+        <item> Tunezja</item>
+        <item> Turcja</item>
+        <item> Turkmenistan</item>
+        <item>Ukraina</item>
+        <item> Urugwaj</item>
+        <item> Uzbekistan</item>
+        <item> Wenezuela</item>
+        <item> Węgry</item>
+        <item> Wielka Brytania</item>
+        <item> Wietnam</item>
+        <item> Włochy</item>
+        <item> Wybrzeże Kości Słoniowej</item>
+        <item> Zimbabwe</item>
+        <item> Zjednoczone Emiraty Arabskie</item>
+
+
+    </string-array>
+
+    <integer-array name="dietyPanstw">
+        <item>47</item>
+        <item>41</item>
+        <item>50</item>
+        <item>50</item>
+        <item>61</item>
+        <item>45</item>
+        <item>50</item>
+        <item>42</item>
+        <item>88</item>
+        <item>52</item>
+        <item>43</item>
+        <item>50</item>
+        <item>48</item>
+        <item>42</item>
+        <item>41</item>
+        <item>43</item>
+        <item>40</item>
+        <item>60</item>
+        <item>55</item>
+        <item>42</item>
+        <item>43</item>
+        <item>41</item>
+        <item>406</item>
+        <item>55</item>
+        <item>44</item>
+        <item>41</item>
+        <item>55</item>
+        <item>48</item>
+        <item>50</item>
+        <item>48</item>
+        <item>43</item>
+        <item>50</item>
+        <item>38</item>
+        <item>41</item>
+        <item>60</item>
+        <item>41</item>
+        <item>52</item>
+        <item>56</item>
+        <item>50</item>
+        <item>7532</item>
+        <item>48</item>
+        <item>40</item>
+        <item>45</item>
+        <item>71</item>
+        <item>41</item>
+        <item>41</item>
+        <item>41</item>
+        <item>41</item>
+        <item>49</item>
+        <item>66</item>
+        <item>46</item>
+        <item>48</item>
+        <item>50</item>
+        <item>42</item>
+        <item>39</item>
+        <item>54</item>
+        <item>57</item>
+        <item>52</item>
+        <item>88</item>
+        <item>39</item>
+        <item>48</item>
+        <item>57</item>
+        <item>39</item>
+        <item>41</item>
+        <item>43</item>
+        <item>41</item>
+        <item>53</item>
+        <item>41</item>
+        <item>50</item>
+        <item>45</item>
+        <item>50</item>
+        <item>49</item>
+        <item>46</item>
+        <item>451</item>
+        <item>58</item>
+        <item>40</item>
+        <item>38</item>
+        <item>50</item>
+        <item>52</item>
+        <item>50</item>
+        <item>49</item>
+        <item>52</item>
+        <item>48</item>
+        <item>38</item>
+        <item>48</item>
+        <item>44</item>
+        <item>40</item>
+        <item>56</item>
+        <item>43</item>
+        <item>41</item>
+        <item>59</item>
+        <item>50</item>
+        <item>88</item>
+        <item>459</item>
+        <item>41</item>
+        <item>42</item>
+        <item>53</item>
+        <item>37</item>
+        <item>53</item>
+        <item>47</item>
+        <item>41</item>
+        <item>50</item>
+        <item>41</item>
+        <item>60</item>
+        <item>44</item>
+        <item>35</item>
+        <item>53</item>
+        <item>48</item>
+        <item>33</item>
+        <item>39</item>
+        <item>39</item>
+
+
+    </integer-array>
+    <string-array name="waluty">
+        <item>	EUR	</item>
+        <item>	EUR	</item>
+        <item>	EUR	</item>
+        <item>	EUR	</item>
+        <item>	USD	</item>
+        <item>	EUR	</item>
+        <item>	USD	</item>
+        <item>	EUR	</item>
+        <item>	AUD	</item>
+        <item>	EUR	</item>
+        <item>	EUR	</item>
+        <item>	USD	</item>
+        <item>	EUR	</item>
+        <item>	EUR	</item>
+        <item>	EUR	</item>
+        <item>	EUR	</item>
+        <item>	EUR	</item>
+        <item>	USD	</item>
+        <item>	EUR	</item>
+        <item>	EUR	</item>
+        <item>	EUR	</item>
+        <item>	EUR	</item>
+        <item>	DKK	</item>
+        <item>	USD	</item>
+        <item>	USD	</item>
+        <item>	EUR	</item>
+        <item>	USD	</item>
+        <item>	EUR	</item>
+        <item>	EUR	</item>
+        <item>	EUR	</item>
+        <item>	EUR	</item>
+        <item>	EUR	</item>
+        <item>	EUR	</item>
+        <item>	EUR	</item>
+        <item>	USD	</item>
+        <item>	EUR	</item>
+        <item>	EUR	</item>
+        <item>	EUR	</item>
+        <item>	EUR	</item>
+        <item>	JPY	</item>
+        <item>	USD	</item>
+        <item>	EUR	</item>
+        <item>	USD	</item>
+        <item>	CAD	</item>
+        <item>	EUR	</item>
+        <item>	EUR	</item>
+        <item>	EUR	</item>
+        <item>	USD	</item>
+        <item>	USD	</item>
+        <item>	USD	</item>
+        <item>	EUR	</item>
+        <item>	EUR	</item>
+        <item>	USD	</item>
+        <item>	EUR	</item>
+        <item>	EUR	</item>
+        <item>	USD	</item>
+        <item>	USD	</item>
+        <item>	EUR	</item>
+        <item>	CHF	</item>
+        <item>	EUR	</item>
+        <item>	EUR	</item>
+        <item>	EUR	</item>
+        <item>	EUR	</item>
+        <item>	EUR	</item>
+        <item>	EUR	</item>
+        <item>	EUR	</item>
+        <item>	USD	</item>
+        <item>	EUR	</item>
+        <item>	EUR	</item>
+        <item>	EUR	</item>
+        <item>	EUR	</item>
+        <item>	EUR	</item>
+        <item>	EUR	</item>
+        <item>	NOK	</item>
+        <item>	USD	</item>
+        <item>	EUR	</item>
+        <item>	EUR	</item>
+        <item>	EUR	</item>
+        <item>	USD	</item>
+        <item>	USD	</item>
+        <item>	EUR	</item>
+        <item>	USD	</item>
+        <item>	EUR	</item>
+        <item>	EUR	</item>
+        <item>	EUR	</item>
+        <item>	EUR	</item>
+        <item>	EUR	</item>
+        <item>	USD	</item>
+        <item>	EUR	</item>
+        <item>	EUR	</item>
+        <item>	USD	</item>
+        <item>	USD	</item>
+        <item>	CHF	</item>
+        <item>	SEK	</item>
+        <item>	EUR	</item>
+        <item>	USD	</item>
+        <item>	USD	</item>
+        <item>	EUR	</item>
+        <item>	USD	</item>
+        <item>	EUR	</item>
+        <item>	EUR	</item>
+        <item>	USD	</item>
+        <item>	EUR	</item>
+        <item>	USD	</item>
+        <item>	EUR	</item>
+        <item>	GBP	</item>
+        <item>	USD	</item>
+        <item>	EUR	</item>
+        <item>	EUR	</item>
+        <item>	EUR	</item>
+        <item>	EUR	</item>
+
+    </string-array>
+    <string name="title_activity_score">Score</string>
+</resources>
